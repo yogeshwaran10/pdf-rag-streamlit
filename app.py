@@ -82,7 +82,7 @@ def process_pdf(file_path):
         splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
         chunks = splitter.split_documents(documents)
         cleaned_chunks = [doc for doc in chunks if clean_text(doc.page_content)]
-        embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+        embedding_model = HuggingFaceEmbeddings(model_name="./models/all-MiniLM-L6-v2")
         vector_store = FAISS.from_documents(cleaned_chunks, embedding_model)
         return vector_store
     except Exception as e:
