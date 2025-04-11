@@ -14,7 +14,6 @@ Welcome to **RAG Buddy**, an interactive application built with Streamlit that p
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Demo](#demo)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
