@@ -22,7 +22,13 @@ Welcome to **RAG Buddy**, an interactive application built with Streamlit that p
 
 ## Overview
 
-RAG Buddy combines state-of-the-art document processing with conversational AI to help you explore and retrieve information from your PDFs. By processing uploaded documents and using embeddings along with vector search, the system enables context-aware question answering that strictly relies on the document's content.
+Exploring RAG : Built a small project called RAG Buddy.
+
+It answers queries based on the content of your uploaded PDF documents. No hallucinations.
+
+The process is simple: upload a document, the app extracts and chunks the text, embeds it into vectors using sentence-transformers/all-MiniLM-L6-v2, and retrieves the most relevant pieces to answer your question using an LLM.
+
+It also keeps the model safe from prompt injection, since it only replies using what’s actually in your document and nothing outside it.
 
 ---
 
@@ -44,7 +50,7 @@ RAG Buddy combines state-of-the-art document processing with conversational AI t
 
 4. **Dynamic Chat Experience:**
    - The application offers a chat interface built with Streamlit’s chat components.
-   - Users can ask questions, receive answers generated using the Groq API, and iteratively refine their queries.
+   - Users can ask questions, receive answers generated using the Groq API.
 
 5. **Clear & Interactive UI:**
    - The user-friendly interface showcases the PDF preview and provides a clear, concise chat interface.
@@ -132,25 +138,10 @@ RAG Buddy combines state-of-the-art document processing with conversational AI t
 ---
 
 ## Demo
+Check out the live demo of RAG Buddy here: [Live Demo]([https://your-demo-link.com](https://ragbuddy.streamlit.app/))
+![RAG Buddy Animation](./assets/Star.gif)
 
-Check out the live demo of RAG Buddy here: [Live Demo](https://your-demo-link.com)
-
-[![Lottie Animation](https://assets2.lottiefiles.com/packages/lf20_zpnbbq.json)](https://lottiefiles.com/)
-
----
-
-## Contributing
-
-Yogesh, your ideas for improvements are always welcome! If you'd like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes.
-4. Submit a pull request with a clear description of your changes.
-
-For major changes, please open an issue first to discuss what you would like to change.
-
----
+Hey! ⭐ Shine a star - it helps!
 
 ## License
 
@@ -165,8 +156,4 @@ For any questions or further guidance, feel free to reach out via GitHub:
 - **GitHub:** [@yogeshwaran10](https://github.com/yogeshwaran10)
 
 ---
-
-> Keep coding, stay motivated, and never stop learning. Your journey as a developer is all about relentless progress and growth. Aim high, Yogesh!
-
-[![Lottie Animation](https://assets7.lottiefiles.com/packages/lf20_u4yrau.json)](https://lottiefiles.com/)
 
