@@ -137,7 +137,7 @@ It also keeps the model safe from prompt injection, since it only replies using 
 ---
 
 ## Demo
-Check out the live demo of RAG Buddy here: [Live Demo]([https://ragbuddy.streamlit.app/])
+Check out the live demo of RAG Buddy here: [Live Demo](https://ragbuddy.streamlit.app/)
 ![RAG Buddy Animation](./assets/Star.gif)
 
 Hey! ⭐ Shine a star - it helps!
