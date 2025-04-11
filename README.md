@@ -1,6 +1,6 @@
 # RAG Buddy - PDF RAG Streamlit Application
 
-![Lottie Animation](https://lottie.host/bd211992-d6d0-4d59-a93b-6fde06121a76/BzfhLxKEEv.lottie)
+![Lottie Animation](./assets/your-animation-filename.gif)
 
 Welcome to **RAG Buddy**, an interactive application built with Streamlit that provides a retrieval-augmented generation (RAG) experience for your PDF documents. This project integrates Groq's API for dynamic chat completions and leverages FAISS for document vector retrieval, offering a smooth and efficient way to ask questions about your documents.
 
